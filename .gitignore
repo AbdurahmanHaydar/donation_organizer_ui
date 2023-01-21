@@ -1,0 +1,22 @@
+# dependencies
+/node_modules
+/.yarn
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.eslintcache
+
+/.idea
+/.vscode
+
+/src/styles/tailwind.css
