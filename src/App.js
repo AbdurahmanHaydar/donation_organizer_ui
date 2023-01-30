@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import recipientList from './recipientList';
 
 function App() {
   return (

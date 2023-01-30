@@ -1,10 +1,16 @@
 import React from "react";
 import './recipientList.css';
 
-function recipientList() {
+const recipientList =({searchChange}) => {
 
     return (
-
+        <div>
+            <input 
+                type='Search'
+                placeholder="search robots"
+                onChange={searchChange}
+            />
+        </div>
     );
 }
 
